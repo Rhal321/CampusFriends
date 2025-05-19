@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#3B5BDB</color>          <!-- 진한 파랑 (주색상) -->
+    <color name="primary_variant">#2F4ACF</color>  <!-- 주색상 변형 -->
+    <color name="secondary">#4CAF50</color>        <!-- 녹색 (보조 색상) -->
+    <color name="background">#FFFFFF</color>       <!-- 흰색 -->
+    <color name="surface">#F5F5F5</color>          <!-- 카드 배경 등 표면용 -->
+    <color name="text_primary">#000000</color>     <!-- 검정 텍스트 -->
+    <color name="text_secondary">#757575</color>   <!-- 회색 텍스트 -->
+    <color name="divider">#DDDDDD</color>          <!-- 경계선/구분선 -->
+
+    <!-- 강조 및 상태용 색상 -->
+    <color name="error">#F44336</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+</resources>

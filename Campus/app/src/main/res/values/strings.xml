@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">캠퍼스친구</string>
+    <string name="nav_home">홈</string>
+    <string name="nav_timetable">시간표</string>
+    <string name="nav_todo">일정</string>
+    <string name="nav_books">전공책</string>
+    <string name="nav_meal">학식</string>
+</resources>

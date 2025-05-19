@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- ✅ 상단바 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="#7E57C2"
+        android:padding="8dp">
+
+
+        <ImageView
+            android:id="@+id/headerIcon"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="-8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/campus_friend" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="사용자님의 시간표"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/headerIcon"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <!-- ✅ 시간표 영역 -->
+
+    <!-- ✅ 강의 추가 버튼 -->
+
+    <!-- ✅ 하단 네비게이션바 -->
+
+    <FrameLayout
+        android:id="@+id/scheduleFrame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#EEEEEE" />
+
+    <Button
+        android:id="@+id/btnAddLecture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7E57C2"
+        android:text="강의 추가"
+        android:textColor="#FFFFFF" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:menu="@menu/bottom_nav_menu" />
+
+</LinearLayout>

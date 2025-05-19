@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "974617166068",
+    "project_id": "campusfriend-478c6",
+    "storage_bucket": "campusfriend-478c6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974617166068:android:a0a5686bb7de335edddea1",
+        "android_client_info": {
+          "package_name": "com.example.campus_friends"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0BHgAmez1WB-ilheVH_3DFgHuiJhUKiM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
